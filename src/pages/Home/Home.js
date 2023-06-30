@@ -5,6 +5,7 @@ import Hero from "../../components/Home/Hero/Hero";
 import Search from "./Search/Search";
 import Message from "../../components/Home/Message/Message";
 import Blogs from "../../components/Blogs/Blogs";
+import Rental from "../../components/Rental/Rental";
 
 const Home = () => {
   return (
@@ -12,10 +13,12 @@ const Home = () => {
       <div className="hero__section">
         <Navbar />
         <Hero />
+        
         <Search />
       </div>
+        <Rental />
       <Blogs />
-        <Message />
+      <Message />
     </div>
   );
 };
