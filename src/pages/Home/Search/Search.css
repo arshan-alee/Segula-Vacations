@@ -1,0 +1,84 @@
+.search__container {
+  width: 75%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -15%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5vmin;
+  padding: 10vmin 7vmin;
+  filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, 0.25));
+}
+
+.search__container label {
+  color: #00b5e2;
+}
+
+.search__container select,
+.search__container input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #acacac;
+  cursor: pointer;
+}
+
+.search__container select {
+  /* appearance: none; */
+}
+
+.search__container .search__category-container {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search__container .search__guest-container {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search__container .search__check-in-container {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search__container .search__check-out-container {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search__container .search__category-container {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.search__container .search__button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.search__container .search__button-container div {
+  width: 55px;
+  height: 50px;
+  background-color: #e3b604;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+}
+
+.search__container .search__button-container div svg {
+  font-size: 26px;
+  color: #fff;
+}

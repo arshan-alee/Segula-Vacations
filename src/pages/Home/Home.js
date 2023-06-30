@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/Home/Navbar/Navbar";
 import "./Home.css";
 import Hero from "../../components/Home/Hero/Hero";
+import Search from "./Search/Search";
 import Message from "../../components/Home/Message/Message";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <div className="hero__section">
         <Navbar />
         <Hero />
+        <Search />
       </div>
         <Message />
     </div>

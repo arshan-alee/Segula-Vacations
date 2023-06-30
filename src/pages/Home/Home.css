@@ -1,7 +1,7 @@
-.home__container .hero__section{
-    min-height: 100vh;
-    width: 100%;
-    background: url("/public/assets/Home/hero__img.png") no-repeat
-    center/cover;
+.home__container .hero__section {
+  min-height: 110vh;
+  width: 100%;
+  background: url("/public/assets/Home/hero__img.png") no-repeat center/cover;
+  position: relative;
+  margin-bottom: 200px;
 }
-

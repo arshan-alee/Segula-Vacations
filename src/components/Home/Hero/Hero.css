@@ -4,4 +4,37 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 12vmin;
+  min-height: 80vh;
+}
+
+.hero__container .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero__container .content h1 {
+  color: #00b5e2;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero__container .content p {
+  color: #fff;
+  width: 70%;
+  font-weight: 400;
+}
+
+.hero__container .content button {
+  background-color: #e3b604;
+  width: 180px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "poppins";
+  cursor: pointer;
 }
