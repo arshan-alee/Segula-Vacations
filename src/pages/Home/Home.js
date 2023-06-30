@@ -4,6 +4,7 @@ import "./Home.css";
 import Hero from "../../components/Home/Hero/Hero";
 import Search from "./Search/Search";
 import Message from "../../components/Home/Message/Message";
+import Blogs from "../../components/Blogs/Blogs";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Hero />
         <Search />
       </div>
+      <Blogs />
         <Message />
     </div>
   );
