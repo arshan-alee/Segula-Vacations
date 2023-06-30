@@ -12,10 +12,12 @@ const Footer = () => {
             <div className='Footer_Upper'>
                 <div className='Footer_About'>
                     <h2 className='Footer_heading'>About Us</h2>
-                    <hr />
+                    <hr className='Footer_hr1'/>
+                    <hr className='Footer_hr2'/>
+
                     <p>Lorem Ipsum dolor sit amet consecterur Lorem Ipsum  Ipsum dolor sit amet  Ipsum dolor sit amet  dolor sit amet sit amet</p>
-                    <div className='Footer_about_Child' style={{marginTop:"10px" }}>
-                        <MdOutlineLocationOn style={{ color: "#00b5e2"}} />
+                    <div className='Footer_about_Child' style={{ marginTop: "10px" }}>
+                        <MdOutlineLocationOn style={{ color: "#00b5e2" }} />
                         <span>
 
                             Lorem ipsum color street 1234
@@ -38,7 +40,8 @@ const Footer = () => {
                 </div>
                 <div className='Footer_Links'>
                     <h2 className='Footer_heading'>Quick Links </h2>
-                    <hr />
+                    <hr className='Footer_hr1'/>
+                    <hr className='Footer_hr2'/>
                     <div className='Footer_Links_div'>
                         <div className='Footer_Links_div_left'>
                             <Link className='footer_links'>Home</Link>
@@ -65,18 +68,39 @@ const Footer = () => {
 
                 <div className='Footer_News'>
                     <h2 className='Footer_heading'>NEWSLETTER</h2>
-                    <hr />
+                    <hr className='Footer_hr1'/>
+                    <hr className='Footer_hr2'/>
                     <div className='Footer_News_child'>
                         <input placeholder='Enter Your Email' />
                         <button>Subscribe</button>
                         <div className='Footer_follow'>
                             <h3 className='Footer_heading_Small'>Follow Us: </h3>
+                            <img src="/assets/Footer/footer_facebook.png" alt="icon" className='footer_icons' style={{ marginLeft: "10px" }} />
+                            <img src="/assets/Footer/footer_twitter.png" alt="icon" className='footer_icons' />
+                            <img src="/assets/Footer/footer_gmail.png" alt="icon" className='footer_icons' />
+                            <img src="/assets/Footer/footer_linkedin.png" alt="icon" className='footer_icons' />
+
+
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div className='Footer_Down'>Footer_Down</div>
+            <div className='Footer_Down'>
+                <div className='Footer_Down_Left'>
+                    <p>
+
+                        COPYRIGHT © 2023. All rights reserved
+                    </p></div>
+                <div className='Footer_Down_Right'>
+                    <p>
+
+                        Privacy policy   
+                        <span> | </span>
+                           Sitemap
+                    </p></div>
+
+            </div>
 
         </div>
     )
