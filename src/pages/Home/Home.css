@@ -3,4 +3,5 @@
   width: 100%;
   background: url("/public/assets/Home/hero__img.png") no-repeat center/cover;
   position: relative;
+  margin-bottom: 200px;
 }
