@@ -60,6 +60,7 @@ export const LinksData=[
 
 
 
+                {/* <img src="/assets/Blogs/arrow.png" alt="blog" className='Blog__Icons__Img__Left' /> */}
 
 export const rental=[
     {
@@ -69,7 +70,7 @@ export const rental=[
        guestLogo: <MdBedroomParent />,
        guests: "20",
        amount: "$1850",
-
+        image: "/assets/Rental/Rental1"
     },
     {
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
@@ -78,6 +79,7 @@ export const rental=[
        guestLogo: <MdBedroomParent />,
        guests: "12",
        amount: "$1850",
+       image: "/assets/Rental/Rental2"
 
     },{
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
@@ -86,6 +88,7 @@ export const rental=[
        guestLogo: <MdBedroomParent />,
        guests: "14",
        amount: "$1850",
+       image: "/assets/Rental/Rental3"
 
     },{
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
@@ -94,6 +97,7 @@ export const rental=[
        guestLogo: <MdBedroomParent />,
        guests: "12",
        amount: "$1850",
+       image: "/assets/Rental/Rental4"
 
     },{
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
@@ -102,6 +106,7 @@ export const rental=[
        guestLogo: <MdBedroomParent />,
        guests: "16",
        amount: "$1850",
+       image: "/assets/Rental/Rental5"
 
     },{
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
@@ -110,6 +115,7 @@ export const rental=[
        guestLogo: <MdBedroomParent />,
        guests: "13",
        amount: "$1850",
+       image: "/assets/Rental/Rental6"
 
     },
 ]
