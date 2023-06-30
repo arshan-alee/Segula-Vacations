@@ -1,0 +1,28 @@
+.navbar__container{
+    opacity: 0.6;
+    background-color: #282828;
+    padding: 3vmin 3vmin;
+}
+
+.navbar__container  h1{
+    color: #ffd324;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+
+.navbar__container .links{
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar__container .links a{
+    color: #ffffff ;
+    text-decoration: none;
+    font-size: 15px;
+}
