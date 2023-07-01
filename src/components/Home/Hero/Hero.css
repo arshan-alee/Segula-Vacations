@@ -38,3 +38,32 @@
   font-family: "poppins";
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .home__container .hero__section {
+    min-height: 100vh;
+    margin-bottom: 150px;
+  }
+
+  .hero__container {
+    width: 95%;
+    gap: 3vmin;
+    min-height: 80vh;
+  }
+  .hero__container .content h1 {
+    font-size: 50px;
+  }
+  .hero__container .content p {
+    color: #fff;
+    width: 100%;
+  }
+  .hero__container .content button {
+    width: 140px;
+    height: 45px;
+  }
+
+  .hero__container .icons img {
+    width: 30px;
+    height: 30px;
+  }
+}

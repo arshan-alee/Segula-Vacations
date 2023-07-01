@@ -5,3 +5,10 @@
   position: relative;
   margin-bottom: 200px;
 }
+
+@media screen and (max-width: 768px) {
+  .home__container .hero__section {
+    min-height: 120vh;
+    margin-bottom: 150px;
+  }
+}
