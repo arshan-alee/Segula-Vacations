@@ -1,0 +1,101 @@
+.Blog__Container{
+    position: relative;
+    margin-bottom: 20px;
+}
+.Blog__Icons__Left{
+
+    border: 2px solid #d9d8d8;
+    width: 50px;
+    height: 50px;
+    /* border: 20px; */
+    border-radius: 30px;
+    padding: au;
+    /* padding: initial; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+}
+.Blog__Icons__Img__Left{
+    color: #00b5e2;
+    width: 30px;
+}
+
+
+.Blog__Icons__Right{
+
+    border: 2px solid #d9d8d8;
+    width: 50px;
+    height: 50px;
+    /* border: 20px; */
+    border-radius: 30px;
+    padding: au;
+    /* padding: initial; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+.Blog__Icons__Img__Right{
+    color: #00b5e2;
+    width: 30px;
+}
+
+.Blog__Container > h2{
+    text-align: center;
+    font-size: 52px;
+    color: #000080;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.Blog__Cards{
+    display: flex;
+    justify-content: center;
+}
+.Blog__Card{
+width: 370px;
+margin: 0px 20px;
+
+
+filter: drop-shadow(0 0 2.5px rgba(0,0,0,0.08));
+background-color: #ffffff;
+
+
+}
+
+.Card__Below{
+    padding: 0px 26px;
+padding-bottom: 25px;
+}
+
+.Blog__Card > .Card__Below > h3{
+    font-size: 22px;
+color: #00b5e2;
+font-weight: 600;
+font-family: "Poppins";
+}
+
+
+.Blog__Card > .Card__Below > p{
+
+    font-size: 16px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.Blog__Card > .Card__Below > .blog_links{
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #e3b604;
+    font-weight: 400;
+    font-family: "Poppins";
+}
