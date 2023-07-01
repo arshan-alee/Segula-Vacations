@@ -1,116 +1,108 @@
 .Message_Container {
-    min-height: 90vh;
-    width: 100%;
-    background: url("/public/assets/Message/message.png") no-repeat center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 90vh;
+  width: 100%;
+  background: url("/public/assets/Message/message.png") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vmin 0;
 }
 
 .Message_Container_Child {
-    opacity: 0.902;
-    background-color: #00b5e2;
-    border: 4px solid #ffffff;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 70px;
+  opacity: 0.902;
+  background-color: #00b5e2;
+  border: 4px solid #ffffff;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 .message_child {
-    width: 60%;
-    align-items: center;
-    text-align: center;
-    margin: auto;
+  width: 60%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 .message_form {
-    width: 80%;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 70px;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 
 .message_form_input {
-    width: calc(50% - 50px);
-    /* Adjust the width value as needed */
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-    color: black;
-    outline: none;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
+  width: calc(50% - 50px);
+  /* Adjust the width value as needed */
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: black;
+  outline: none;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .message_form_message_input {
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-    color: black;
-    outline: none;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: black;
+  outline: none;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
-
 .message_form_input::placeholder {
-    color: black;
-    opacity: 1;
-    font-size: 15px;
-    font-weight: 400;
-
+  color: black;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .message_form_message_input::placeholder {
-    color: black;
-    opacity: 1;
-    font-size: 15px;
-    font-weight: 400;
+  color: black;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.Message_Container_Child>button {
-    width: 269px;
-    height: 54px;
-    background-color: #e3b604;
-    border: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 400;
+.Message_Container_Child > button {
+  width: 269px;
+  height: 54px;
+  background-color: #e3b604;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
 }
 
-.Message_Container_Child>h2 {
-
-    font-size: 36px;
-    color: #ffffff;
-    font-weight: 700;
-
+.Message_Container_Child > h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
 }
 
-.Message_Container_Child>.message_child>p {
-
-    width: 467px;
-    height: 35px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #282828;
-    font-weight: 400;
-    font-family: "Poppins";
-    text-align: center;
+.Message_Container_Child > .message_child > p {
+  width: 467px;
+  height: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #282828;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
 }
-
-
-
 
 @media screen and (max-width: 600px) {
-    /* .message_form_input {
+  /* .message_form_input {
       width: 100%;
     } */
 }

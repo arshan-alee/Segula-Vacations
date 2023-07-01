@@ -60,7 +60,7 @@
 }
 .Blog__Card {
   flex: 0.28;
-  filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, 0.08));
+  filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, 0.25));
   background-color: #ffffff;
 }
 

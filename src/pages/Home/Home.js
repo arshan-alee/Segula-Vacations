@@ -18,8 +18,8 @@ const Home = () => {
 
         <Search />
       </div>
-      <VideoGallery />
       <Rental />
+      <VideoGallery />
       <Blogs />
       <Message />
     </div>
