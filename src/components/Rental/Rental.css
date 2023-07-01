@@ -110,7 +110,34 @@
   font-family: "Poppins";
 }
 
-/* font-size: 14px;
-color: #000080;
-font-weight: 400;
-font-family: "Poppins"; */
+@media screen and (max-width: 768px) {
+  .Rental__Card {
+    width: 280px;
+    filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, 0.25));
+    background-color: #ffffff;
+  }
+
+
+  .Rental__Middle > .Rental__Middle__Left > p {
+    font-size: 11px;
+   
+  }
+  
+  .Rental__Middle > .Rental__Middle__Right > p {
+    font-size: 11px;
+   }
+
+
+   .Rental__Bottom > h3 {
+    font-size: 20px;
+  
+  }
+  
+  .Rental__Bottom > span {
+    font-size: 20px;
+  }
+
+  
+
+
+}
