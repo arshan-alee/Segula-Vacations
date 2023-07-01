@@ -64,58 +64,69 @@ export const LinksData=[
 
 export const rental=[
     {
+        id:1,
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
        bedroomLogo: <MdBedroomParent />,
        bedrooms: "6",
        guestLogo: <MdBedroomParent />,
        guests: "20",
        amount: "$1850",
-        image: "/assets/Rental/Rental1"
+        image: "/assets/Rental/Rental1.png"
     },
     {
+        id:2,
+
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
        bedroomLogo: <MdBedroomParent />,
        bedrooms: "8",
        guestLogo: <MdBedroomParent />,
        guests: "12",
        amount: "$1850",
-       image: "/assets/Rental/Rental2"
+       image: "/assets/Rental/Rental2.png"
 
     },{
+        id:3,
+
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
        bedroomLogo: <MdBedroomParent />,
        bedrooms: "9",
        guestLogo: <MdBedroomParent />,
        guests: "14",
        amount: "$1850",
-       image: "/assets/Rental/Rental3"
+       image: "/assets/Rental/Rental3.png"
 
     },{
+        id:4,
+
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
        bedroomLogo: <MdBedroomParent />,
        bedrooms: "3",
        guestLogo: <MdBedroomParent />,
        guests: "12",
        amount: "$1850",
-       image: "/assets/Rental/Rental4"
+       image: "/assets/Rental/Rental4.png"
 
     },{
+        id:5,
+
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
        bedroomLogo: <MdBedroomParent />,
        bedrooms: "12",
        guestLogo: <MdBedroomParent />,
        guests: "16",
        amount: "$1850",
-       image: "/assets/Rental/Rental5"
+       image: "/assets/Rental/Rental5.png"
 
     },{
+        id:6,
+
         heading: "Miami Florida - Lorem Ipsum Dolore Sit Amet",
        bedroomLogo: <MdBedroomParent />,
        bedrooms: "5",
        guestLogo: <MdBedroomParent />,
        guests: "13",
        amount: "$1850",
-       image: "/assets/Rental/Rental6"
+       image: "/assets/Rental/Rental6.png"
 
     },
 ]
