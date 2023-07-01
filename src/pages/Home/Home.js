@@ -18,10 +18,10 @@ const Home = () => {
 
         <Search />
       </div>
+      <Rental />
       <VideoGallery />
-      {/* <Rental /> */}
-      {/* <Blogs /> */}
-      {/* <Message /> */}
+      <Blogs />
+      <Message />
     </div>
   );
 };
