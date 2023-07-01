@@ -2,6 +2,7 @@
   position: relative;
   padding: 10vmin 5vmin 20vmin 5vmin;
 }
+
 .Blog__Icons__Left {
   border: 2px solid #d9d8d8;
   width: 50px;
@@ -18,6 +19,7 @@
   left: 30px;
   top: 50%;
 }
+
 .Blog__Icons__Img__Left {
   color: #00b5e2;
   width: 30px;
@@ -39,12 +41,13 @@
   right: 30px;
   top: 50%;
 }
+
 .Blog__Icons__Img__Right {
   color: #00b5e2;
   width: 30px;
 }
 
-.Blog__Container > h2 {
+.Blog__Container>h2 {
   text-align: center;
   font-size: 45px;
   color: #000080;
@@ -57,9 +60,13 @@
   justify-content: center;
   align-items: center;
   gap: 3vmin;
+  flex-wrap: wrap;
 }
+
+
 .Blog__Card {
-  flex: 0.28;
+  /* flex: 0.28; */
+  width: 370px;
   filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, 0.25));
   background-color: #ffffff;
 }
@@ -78,25 +85,45 @@
   padding-bottom: 25px;
 }
 
-.Blog__Card > .Card__Below > h3 {
+.Blog__Card>.Card__Below>h3 {
   font-size: 20px;
   color: #00b5e2;
   font-weight: 600;
   font-family: "Poppins";
 }
 
-.Blog__Card > .Card__Below > p {
+.Blog__Card>.Card__Below>p {
   font-size: 16px;
   color: #606060;
   font-weight: 400;
   font-family: "Poppins";
 }
 
-.Blog__Card > .Card__Below > .blog_links {
+.Blog__Card>.Card__Below>.blog_links {
   font-size: 16px;
   line-height: 30px;
   text-decoration: underline;
   color: #e3b604;
   font-weight: 400;
   font-family: "Poppins";
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .Blog__Card {
+    width: 280px;
+    filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, 0.25));
+    background-color: #ffffff;
+  }
+
+  .Blog__Icons__Left {
+    display: none;
+  }
+
+  .Blog__Icons__Right {
+    display: none;
+
+  }
 }

@@ -17,6 +17,7 @@ const Blogs = () => {
         <div className="Blog__Card">
           <div className=" Card__Upper">
             <img src="/assets/Blogs/blog1.png" alt="blog" />
+            
           </div>
           <div className=" Card__Below">
             <h3>Loreum Ipsuem Is a Simply Dummy Text Of the</h3>
