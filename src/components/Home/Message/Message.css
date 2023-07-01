@@ -102,7 +102,29 @@
 }
 
 @media screen and (max-width: 600px) {
-  /* .message_form_input {
-      width: 100%;
-    } */
+  .Message_Container_Child {
+   width: 350px;
+  }
+  
+  .message_child {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;  
+  }
+
+  .message_form_input {
+  
+    width: calc(50% - 10px);
+    margin-bottom: 25px;
+  }
+
+  .Message_Container_Child > h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: -10px;
+  }
+  
+  
 }

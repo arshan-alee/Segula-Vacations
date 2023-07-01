@@ -21,7 +21,7 @@ const Home = () => {
       <Rental />
       <VideoGallery />
       <Blogs />
-      {/* <Message /> */}
+      <Message />
     </div>
   );
 };
