@@ -6,6 +6,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
+
 const Footer = () => {
     return (
         <div className='Footer'>
@@ -96,11 +97,12 @@ const Footer = () => {
                     <p>
 
                         Privacy policy   
-                        <span> | </span>
+                        <span className='Footer__Straight'> | </span>
                            Sitemap
                     </p></div>
 
             </div>
+
 
         </div>
     )

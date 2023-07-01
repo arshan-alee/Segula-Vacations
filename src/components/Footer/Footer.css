@@ -203,7 +203,28 @@ hr {
     font-weight: 500;
 }
 
-.Footer_Down >  .Footer_Down_Right > span{
+.Footer_Down >  .Footer_Down_Right > .Footer__Straight{
     
     margin: 0px 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Footer_Upper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+  }
+
+  .Footer_Down{
+   
+    padding: 0px 20px 0px 20px;
+    font-size: 10px;
+  }
+
+  .Footer_Down >  .Footer_Down_Right > .Footer__Straight{
+    
+    margin: 0px 5px;
+}
 }
