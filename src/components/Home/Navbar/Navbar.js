@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       <div className={`links ${showLinks ? "show__links" : ""}`}>
         {LinksData.map((link) => (
-          <Link to={link.linkTo} key={link.linkText}>
+          <Link to="/" key={link.linkText}>
             {link.linkText}
           </Link>
         ))}
